@@ -7,21 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		066FA75C117E62BB75946B34 /* Pods_RealtimePasteBoard__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D806CAC93208D77AE21E46 /* Pods_RealtimePasteBoard__iOS_.framework */; };
 		FD00DA752893B9960079897D /* RealtimePasteBoardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD00DA652893B9940079897D /* RealtimePasteBoardApp.swift */; };
-		FD00DA762893B9960079897D /* RealtimePasteBoardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD00DA652893B9940079897D /* RealtimePasteBoardApp.swift */; };
 		FD00DA772893B9960079897D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD00DA662893B9940079897D /* ContentView.swift */; };
-		FD00DA782893B9960079897D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD00DA662893B9940079897D /* ContentView.swift */; };
 		FD00DA792893B9960079897D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD00DA672893B9960079897D /* Assets.xcassets */; };
-		FD00DA7A2893B9960079897D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD00DA672893B9960079897D /* Assets.xcassets */; };
+		FD00DA882893C6C10079897D /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = FD00DA872893C6C10079897D /* FirebaseAnalytics */; };
+		FD00DA8A2893C6C10079897D /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = FD00DA892893C6C10079897D /* FirebaseDatabase */; };
+		FD00DA8C2893C6C10079897D /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FD00DA8B2893C6C10079897D /* FirebaseDatabaseSwift */; };
+		FDCAF1432896006B00E8F245 /* PasteBoardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCAF1422896006B00E8F245 /* PasteBoardViewModel.swift */; };
+		FDD5EE7B2893CA8200E48258 /* DictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD5EE7A2893CA8100E48258 /* DictionaryExtension.swift */; };
+		FDD5EE812893CA9A00E48258 /* RealtimeDatabaseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD5EE7F2893CA9A00E48258 /* RealtimeDatabaseRepository.swift */; };
+		FDD5EE822893CA9A00E48258 /* RealTimeDatabaseDomainObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD5EE802893CA9A00E48258 /* RealTimeDatabaseDomainObject.swift */; };
+		FDD5EE842893CBCC00E48258 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FDD5EE832893CBCC00E48258 /* GoogleService-Info.plist */; };
+		FDD5EE862893CCDA00E48258 /* DataSnapshotExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD5EE852893CCDA00E48258 /* DataSnapshotExtension.swift */; };
+		FDD5EE89289457E700E48258 /* PasteBoardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD5EE88289457E700E48258 /* PasteBoardListView.swift */; };
+		FDD5EE8C2894589A00E48258 /* PasteBoardRepositroy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD5EE8B2894589A00E48258 /* PasteBoardRepositroy.swift */; };
+		FDD5EE8E289458F900E48258 /* PasteBoardDomainObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD5EE8D289458F900E48258 /* PasteBoardDomainObject.swift */; };
+		FDD5EE9028946C8400E48258 /* ProgressManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD5EE8F28946C8400E48258 /* ProgressManager.swift */; };
+		FDF66E122898177600C24538 /* ConfirmDeleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF66E112898177600C24538 /* ConfirmDeleteView.swift */; };
+		FDF66E152898517D00C24538 /* ConfirmDeleteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF66E142898517D00C24538 /* ConfirmDeleteViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		490D11A36280366AF8497EFD /* Pods-RealtimePasteBoard (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealtimePasteBoard (iOS).release.xcconfig"; path = "Target Support Files/Pods-RealtimePasteBoard (iOS)/Pods-RealtimePasteBoard (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		BFF6B5A4FAC46206A5493FD2 /* Pods-RealtimePasteBoard (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealtimePasteBoard (iOS).debug.xcconfig"; path = "Target Support Files/Pods-RealtimePasteBoard (iOS)/Pods-RealtimePasteBoard (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		F2D806CAC93208D77AE21E46 /* Pods_RealtimePasteBoard__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealtimePasteBoard__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD00DA652893B9940079897D /* RealtimePasteBoardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealtimePasteBoardApp.swift; sourceTree = "<group>"; };
 		FD00DA662893B9940079897D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FD00DA672893B9960079897D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD00DA6C2893B9960079897D /* RealtimePasteBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealtimePasteBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD00DA722893B9960079897D /* RealtimePasteBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealtimePasteBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD00DA742893B9960079897D /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		FD00DA8D2893C70C0079897D /* RealtimePasteBoard--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "RealtimePasteBoard--iOS--Info.plist"; sourceTree = "<group>"; };
+		FDCAF1422896006B00E8F245 /* PasteBoardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasteBoardViewModel.swift; sourceTree = "<group>"; };
+		FDD5EE7A2893CA8100E48258 /* DictionaryExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryExtension.swift; sourceTree = "<group>"; };
+		FDD5EE7F2893CA9A00E48258 /* RealtimeDatabaseRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealtimeDatabaseRepository.swift; sourceTree = "<group>"; };
+		FDD5EE802893CA9A00E48258 /* RealTimeDatabaseDomainObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealTimeDatabaseDomainObject.swift; sourceTree = "<group>"; };
+		FDD5EE832893CBCC00E48258 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FDD5EE852893CCDA00E48258 /* DataSnapshotExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSnapshotExtension.swift; sourceTree = "<group>"; };
+		FDD5EE88289457E700E48258 /* PasteBoardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasteBoardListView.swift; sourceTree = "<group>"; };
+		FDD5EE8B2894589A00E48258 /* PasteBoardRepositroy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasteBoardRepositroy.swift; sourceTree = "<group>"; };
+		FDD5EE8D289458F900E48258 /* PasteBoardDomainObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasteBoardDomainObject.swift; sourceTree = "<group>"; };
+		FDD5EE8F28946C8400E48258 /* ProgressManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressManager.swift; sourceTree = "<group>"; };
+		FDF66E112898177600C24538 /* ConfirmDeleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmDeleteView.swift; sourceTree = "<group>"; };
+		FDF66E142898517D00C24538 /* ConfirmDeleteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmDeleteViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,25 +56,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FD00DA6F2893B9960079897D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				FD00DA8C2893C6C10079897D /* FirebaseDatabaseSwift in Frameworks */,
+				FD00DA8A2893C6C10079897D /* FirebaseDatabase in Frameworks */,
+				FD00DA882893C6C10079897D /* FirebaseAnalytics in Frameworks */,
+				066FA75C117E62BB75946B34 /* Pods_RealtimePasteBoard__iOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CEE7618069B454E47EEBC528 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFF6B5A4FAC46206A5493FD2 /* Pods-RealtimePasteBoard (iOS).debug.xcconfig */,
+				490D11A36280366AF8497EFD /* Pods-RealtimePasteBoard (iOS).release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FD00DA5F2893B9940079897D = {
 			isa = PBXGroup;
 			children = (
+				FD00DA8D2893C70C0079897D /* RealtimePasteBoard--iOS--Info.plist */,
+				FDD5EE832893CBCC00E48258 /* GoogleService-Info.plist */,
 				FD00DA642893B9940079897D /* Shared */,
-				FD00DA732893B9960079897D /* macOS */,
 				FD00DA6D2893B9960079897D /* Products */,
+				FD00DA8E2893C79A0079897D /* Frameworks */,
+				CEE7618069B454E47EEBC528 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,6 +93,10 @@
 				FD00DA652893B9940079897D /* RealtimePasteBoardApp.swift */,
 				FD00DA662893B9940079897D /* ContentView.swift */,
 				FD00DA672893B9960079897D /* Assets.xcassets */,
+				FDD5EE87289457D500E48258 /* UI */,
+				FDD5EE792893CA6C00E48258 /* Repository */,
+				FDD5EE9128946C8700E48258 /* Manager */,
+				FDD5EE782893CA6400E48258 /* Extension */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -65,17 +105,104 @@
 			isa = PBXGroup;
 			children = (
 				FD00DA6C2893B9960079897D /* RealtimePasteBoard.app */,
-				FD00DA722893B9960079897D /* RealtimePasteBoard.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FD00DA732893B9960079897D /* macOS */ = {
+		FD00DA8E2893C79A0079897D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FD00DA742893B9960079897D /* macOS.entitlements */,
+				F2D806CAC93208D77AE21E46 /* Pods_RealtimePasteBoard__iOS_.framework */,
 			);
-			path = macOS;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDCAF13D2895EAFB00E8F245 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		FDCAF13E2895EB0500E8F245 /* LocalStorage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LocalStorage;
+			sourceTree = "<group>";
+		};
+		FDD5EE782893CA6400E48258 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FDD5EE852893CCDA00E48258 /* DataSnapshotExtension.swift */,
+				FDD5EE7A2893CA8100E48258 /* DictionaryExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		FDD5EE792893CA6C00E48258 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				FDD5EE8A2894588C00E48258 /* PasteBoard */,
+				FDD5EE7E2893CA9A00E48258 /* RealtimeDatabase */,
+				FDCAF13D2895EAFB00E8F245 /* Network */,
+				FDCAF13E2895EB0500E8F245 /* LocalStorage */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		FDD5EE7E2893CA9A00E48258 /* RealtimeDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				FDD5EE802893CA9A00E48258 /* RealTimeDatabaseDomainObject.swift */,
+				FDD5EE7F2893CA9A00E48258 /* RealtimeDatabaseRepository.swift */,
+			);
+			name = RealtimeDatabase;
+			path = ../../../EatGreat/EatGreat/Repository/RealtimeDatabase;
+			sourceTree = "<group>";
+		};
+		FDD5EE87289457D500E48258 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				FDF66E0F2898140900C24538 /* PasteBoardList */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		FDD5EE8A2894588C00E48258 /* PasteBoard */ = {
+			isa = PBXGroup;
+			children = (
+				FDD5EE8D289458F900E48258 /* PasteBoardDomainObject.swift */,
+				FDD5EE8B2894589A00E48258 /* PasteBoardRepositroy.swift */,
+			);
+			path = PasteBoard;
+			sourceTree = "<group>";
+		};
+		FDD5EE9128946C8700E48258 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				FDD5EE8F28946C8400E48258 /* ProgressManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		FDF66E0F2898140900C24538 /* PasteBoardList */ = {
+			isa = PBXGroup;
+			children = (
+				FDD5EE88289457E700E48258 /* PasteBoardListView.swift */,
+				FDCAF1422896006B00E8F245 /* PasteBoardViewModel.swift */,
+				FDF66E132898178B00C24538 /* SubViews */,
+			);
+			path = PasteBoardList;
+			sourceTree = "<group>";
+		};
+		FDF66E132898178B00C24538 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				FDF66E112898177600C24538 /* ConfirmDeleteView.swift */,
+				FDF66E142898517D00C24538 /* ConfirmDeleteViewModel.swift */,
+			);
+			path = SubViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,34 +212,24 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD00DA7D2893B9960079897D /* Build configuration list for PBXNativeTarget "RealtimePasteBoard (iOS)" */;
 			buildPhases = (
+				C7A096084FD57FAD2C674BB9 /* [CP] Check Pods Manifest.lock */,
 				FD00DA682893B9960079897D /* Sources */,
 				FD00DA692893B9960079897D /* Frameworks */,
 				FD00DA6A2893B9960079897D /* Resources */,
+				2933A6E9376B969251F93EC0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "RealtimePasteBoard (iOS)";
+			packageProductDependencies = (
+				FD00DA872893C6C10079897D /* FirebaseAnalytics */,
+				FD00DA892893C6C10079897D /* FirebaseDatabase */,
+				FD00DA8B2893C6C10079897D /* FirebaseDatabaseSwift */,
+			);
 			productName = "RealtimePasteBoard (iOS)";
 			productReference = FD00DA6C2893B9960079897D /* RealtimePasteBoard.app */;
-			productType = "com.apple.product-type.application";
-		};
-		FD00DA712893B9960079897D /* RealtimePasteBoard (macOS) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FD00DA802893B9960079897D /* Build configuration list for PBXNativeTarget "RealtimePasteBoard (macOS)" */;
-			buildPhases = (
-				FD00DA6E2893B9960079897D /* Sources */,
-				FD00DA6F2893B9960079897D /* Frameworks */,
-				FD00DA702893B9960079897D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "RealtimePasteBoard (macOS)";
-			productName = "RealtimePasteBoard (macOS)";
-			productReference = FD00DA722893B9960079897D /* RealtimePasteBoard.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -128,9 +245,6 @@
 					FD00DA6B2893B9960079897D = {
 						CreatedOnToolsVersion = 13.4;
 					};
-					FD00DA712893B9960079897D = {
-						CreatedOnToolsVersion = 13.4;
-					};
 				};
 			};
 			buildConfigurationList = FD00DA632893B9940079897D /* Build configuration list for PBXProject "RealtimePasteBoard" */;
@@ -142,12 +256,14 @@
 				Base,
 			);
 			mainGroup = FD00DA5F2893B9940079897D;
+			packageReferences = (
+				FD00DA862893C6C00079897D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = FD00DA6D2893B9960079897D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				FD00DA6B2893B9960079897D /* RealtimePasteBoard (iOS) */,
-				FD00DA712893B9960079897D /* RealtimePasteBoard (macOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -158,35 +274,72 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD00DA792893B9960079897D /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FD00DA702893B9960079897D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FD00DA7A2893B9960079897D /* Assets.xcassets in Resources */,
+				FDD5EE842893CBCC00E48258 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2933A6E9376B969251F93EC0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RealtimePasteBoard (iOS)/Pods-RealtimePasteBoard (iOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RealtimePasteBoard (iOS)/Pods-RealtimePasteBoard (iOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RealtimePasteBoard (iOS)/Pods-RealtimePasteBoard (iOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7A096084FD57FAD2C674BB9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RealtimePasteBoard (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FD00DA682893B9960079897D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDD5EE7B2893CA8200E48258 /* DictionaryExtension.swift in Sources */,
+				FDD5EE8E289458F900E48258 /* PasteBoardDomainObject.swift in Sources */,
+				FDF66E122898177600C24538 /* ConfirmDeleteView.swift in Sources */,
+				FDCAF1432896006B00E8F245 /* PasteBoardViewModel.swift in Sources */,
+				FDD5EE862893CCDA00E48258 /* DataSnapshotExtension.swift in Sources */,
+				FDD5EE8C2894589A00E48258 /* PasteBoardRepositroy.swift in Sources */,
+				FDD5EE9028946C8400E48258 /* ProgressManager.swift in Sources */,
+				FDD5EE89289457E700E48258 /* PasteBoardListView.swift in Sources */,
 				FD00DA772893B9960079897D /* ContentView.swift in Sources */,
+				FDD5EE812893CA9A00E48258 /* RealtimeDatabaseRepository.swift in Sources */,
+				FDD5EE822893CA9A00E48258 /* RealTimeDatabaseDomainObject.swift in Sources */,
 				FD00DA752893B9960079897D /* RealtimePasteBoardApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FD00DA6E2893B9960079897D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FD00DA782893B9960079897D /* ContentView.swift in Sources */,
-				FD00DA762893B9960079897D /* RealtimePasteBoardApp.swift in Sources */,
+				FDF66E152898517D00C24538 /* ConfirmDeleteViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +457,7 @@
 		};
 		FD00DA7E2893B9960079897D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFF6B5A4FAC46206A5493FD2 /* Pods-RealtimePasteBoard (iOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -311,6 +465,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RealtimePasteBoard--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -333,6 +488,7 @@
 		};
 		FD00DA7F2893B9960079897D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 490D11A36280366AF8497EFD /* Pods-RealtimePasteBoard (iOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -340,6 +496,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RealtimePasteBoard--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -358,58 +515,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		FD00DA812893B9960079897D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.book.su.RealtimePasteBoard;
-				PRODUCT_NAME = RealtimePasteBoard;
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		FD00DA822893B9960079897D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.book.su.RealtimePasteBoard;
-				PRODUCT_NAME = RealtimePasteBoard;
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -434,16 +539,36 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FD00DA802893B9960079897D /* Build configuration list for PBXNativeTarget "RealtimePasteBoard (macOS)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FD00DA812893B9960079897D /* Debug */,
-				FD00DA822893B9960079897D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FD00DA862893C6C00079897D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FD00DA872893C6C10079897D /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FD00DA862893C6C00079897D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		FD00DA892893C6C10079897D /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FD00DA862893C6C00079897D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		FD00DA8B2893C6C10079897D /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FD00DA862893C6C00079897D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FD00DA602893B9940079897D /* Project object */;
 }

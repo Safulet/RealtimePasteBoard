@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>659300441264-mc6kh8hqmit0v86hmvuahvd5662n38ui.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.659300441264-mc6kh8hqmit0v86hmvuahvd5662n38ui</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCH8wAa3C84lphdKoK5wecHH5VztPHQBfU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>659300441264</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.book.su.RealtimePasteBoard</string>
+	<key>PROJECT_ID</key>
+	<string>realtimepasteboard</string>
+	<key>STORAGE_BUCKET</key>
+	<string>realtimepasteboard.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:659300441264:ios:7d35f46c455d1b9e4def75</string>
+	<key>DATABASE_URL</key>
+	<string>https://realtimepasteboard-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+</dict>
+</plist>
