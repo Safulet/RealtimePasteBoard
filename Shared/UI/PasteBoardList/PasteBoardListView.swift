@@ -54,13 +54,6 @@ struct PasteBoardListView: View {
     
 //  MARK: - SubViews
     
-    var confirmDeleteView: some View {
-        ConfirmDeleteView(deleteData: $prepareDeleteData,
-                          isShowing: $isShowingConfirmDelete)
-        .offset(y: UIScreen.main.bounds.maxY / 3 )
-        .transition(.scale)
-    }
-    
     var logoImage: some View {
         AsyncImage(url: URL(string: logoImageURL)) { phase in
             switch phase {
@@ -105,6 +98,8 @@ struct PasteBoardListView: View {
     var addButton: some View {
         Button {
             viewModel.create(title: newKey, value: newValue)
+            newKey = ""
+            newValue = ""
         } label: {
             Text("Add")
                 .foregroundColor(.black)
@@ -159,6 +154,13 @@ struct PasteBoardListView: View {
                 ProgressManager.showSuccessHUD(withStatus: data.value)
             }
         }
+    }
+    
+    var confirmDeleteView: some View {
+        ConfirmDeleteView(deleteData: $prepareDeleteData,
+                          isShowing: $isShowingConfirmDelete)
+        .offset(y: UIScreen.main.bounds.maxY / 3 )
+        .transition(.scale)
     }
 }
 

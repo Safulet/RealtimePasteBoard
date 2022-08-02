@@ -29,9 +29,7 @@ struct RealtimePasteBoardApp: App {
     
     var body: some Scene {
         WindowGroup {
-//            NavigationView {
             PasteBoardListView()
-//            }
         }
     }
 }
