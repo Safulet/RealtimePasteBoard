@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		066FA75C117E62BB75946B34 /* Pods_RealtimePasteBoard__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D806CAC93208D77AE21E46 /* Pods_RealtimePasteBoard__iOS_.framework */; };
 		FD00DA752893B9960079897D /* RealtimePasteBoardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD00DA652893B9940079897D /* RealtimePasteBoardApp.swift */; };
-		FD00DA772893B9960079897D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD00DA662893B9940079897D /* ContentView.swift */; };
 		FD00DA792893B9960079897D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD00DA672893B9960079897D /* Assets.xcassets */; };
 		FD00DA882893C6C10079897D /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = FD00DA872893C6C10079897D /* FirebaseAnalytics */; };
 		FD00DA8A2893C6C10079897D /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = FD00DA892893C6C10079897D /* FirebaseDatabase */; };
@@ -33,7 +32,6 @@
 		BFF6B5A4FAC46206A5493FD2 /* Pods-RealtimePasteBoard (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealtimePasteBoard (iOS).debug.xcconfig"; path = "Target Support Files/Pods-RealtimePasteBoard (iOS)/Pods-RealtimePasteBoard (iOS).debug.xcconfig"; sourceTree = "<group>"; };
 		F2D806CAC93208D77AE21E46 /* Pods_RealtimePasteBoard__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealtimePasteBoard__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD00DA652893B9940079897D /* RealtimePasteBoardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealtimePasteBoardApp.swift; sourceTree = "<group>"; };
-		FD00DA662893B9940079897D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FD00DA672893B9960079897D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD00DA6C2893B9960079897D /* RealtimePasteBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealtimePasteBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD00DA8D2893C70C0079897D /* RealtimePasteBoard--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "RealtimePasteBoard--iOS--Info.plist"; sourceTree = "<group>"; };
@@ -91,7 +89,6 @@
 			isa = PBXGroup;
 			children = (
 				FD00DA652893B9940079897D /* RealtimePasteBoardApp.swift */,
-				FD00DA662893B9940079897D /* ContentView.swift */,
 				FD00DA672893B9960079897D /* Assets.xcassets */,
 				FDD5EE87289457D500E48258 /* UI */,
 				FDD5EE792893CA6C00E48258 /* Repository */,
@@ -335,7 +332,6 @@
 				FDD5EE8C2894589A00E48258 /* PasteBoardRepositroy.swift in Sources */,
 				FDD5EE9028946C8400E48258 /* ProgressManager.swift in Sources */,
 				FDD5EE89289457E700E48258 /* PasteBoardListView.swift in Sources */,
-				FD00DA772893B9960079897D /* ContentView.swift in Sources */,
 				FDD5EE812893CA9A00E48258 /* RealtimeDatabaseRepository.swift in Sources */,
 				FDD5EE822893CA9A00E48258 /* RealTimeDatabaseDomainObject.swift in Sources */,
 				FD00DA752893B9960079897D /* RealtimePasteBoardApp.swift in Sources */,

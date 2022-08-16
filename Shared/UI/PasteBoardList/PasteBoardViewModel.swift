@@ -29,7 +29,6 @@ class PasteBoardViewModel: ObservableObject {
             .sink { [weak self] datas in
                 guard let self = self else { return }
                 self.pasteDatas = datas
-                print("sink\(self.pasteDatas)")
             }.store(in: &subscriptions)
     }
     

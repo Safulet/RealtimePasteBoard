@@ -25,7 +25,7 @@ struct PasteBoardListView: View {
                 HStack {
                     
                     logoImage
-
+                    
                     Text("Realtime PasteBoard")
                         .font(.title)
                         .padding()
@@ -52,9 +52,15 @@ struct PasteBoardListView: View {
         .animation(.spring(), value: isShowingConfirmDelete)
     }
     
-//  MARK: - SubViews
+    //  MARK: - SubViews
     
     var logoImage: some View {
+        //        Image("BinanceLogo")
+        //            .resizable().aspectRatio(contentMode: .fit)
+        //            .clipShape(Circle())
+        ////            .padding()
+        //            .frame(width: 60, height: 60)
+        //            .scaledToFit()
         AsyncImage(url: URL(string: logoImageURL)) { phase in
             switch phase {
             case .empty:
@@ -79,6 +85,7 @@ struct PasteBoardListView: View {
     }
     
     var titleTextField: some View {
+        
         TextField("Input new title", text: $newKey)
             .textFieldStyle(.roundedBorder)
             .font(.title)
@@ -112,47 +119,46 @@ struct PasteBoardListView: View {
     }
     
     var dataList: some View {
-        ForEach(Array($viewModel.pasteDatas.enumerated()), id: \.offset) { index, $data in
-            HStack {
-                VStack {
-                    HStack {
-                        Text(data.title)
-                            .bold().font(.title)
-                        
-                        Spacer()
-                        
-                        Button {
-                            prepareDeleteData = .init(title: data.title,
-                                                      value: data.value,
-                                                      index: index)
-                            isShowingConfirmDelete = true
-                        } label: {
-                            Text("Delete")
-                                .bold().font(.title2)
-                                .foregroundColor(.red)
-                        }
-                    }
-                    .padding(.top,10)
-                    .padding(.horizontal,10)
+        ForEach(Array($viewModel.pasteDatas.enumerated()),
+                id: \.offset) { index, $data in
+            VStack {
+                HStack {
+                    Text(data.title)
+                        .bold().font(.title)
                     
                     Spacer()
                     
-                    Text(data.value)
-                        .font(.body)
-                        .frame(maxWidth:.infinity,alignment:.leading)
-                        .padding(.horizontal, 10)
-                        .padding(.bottom,20)
-                    
-                }.padding(.leading)
-            }
-            .frame(height: 102)
-            .frame(maxWidth: .infinity, alignment: .leading)
-            .background(RoundedRectangle(cornerRadius: 10).foregroundColor(.yellow))
-            .padding([.leading,.trailing])
-            .onTapGesture {
-                UIPasteboard.general.string = data.value
-                ProgressManager.showSuccessHUD(withStatus: data.value)
-            }
+                    Button {
+                        prepareDeleteData = .init(title: data.title,
+                                                  value: data.value,
+                                                  index: index)
+                        isShowingConfirmDelete = true
+                    } label: {
+                        Text("Delete")
+                            .bold().font(.title2)
+                            .foregroundColor(.red)
+                    }
+                }
+                .padding(.top,10)
+                .padding(.horizontal,10)
+                
+                Spacer()
+                
+                Text(data.value)
+                    .font(.body)
+                    .frame(maxWidth:.infinity,alignment:.leading)
+                    .padding(.horizontal, 10)
+                    .padding(.bottom,20)
+                
+            }.padding(.leading)
+                .frame(height: 102)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .background(RoundedRectangle(cornerRadius: 10).foregroundColor(.yellow))
+                .padding([.leading,.trailing])
+                .onTapGesture {
+                    UIPasteboard.general.string = data.value
+                    ProgressManager.showSuccessHUD(withStatus: data.value)
+                }
         }
     }
     
